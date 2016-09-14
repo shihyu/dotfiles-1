@@ -1,0 +1,12 @@
+"\eOd": backward-word
+"\eOc": forward-word
+"\eOD": backward-word # tmux
+"\eOC": forward-word  # tmux
+
+"\C-H":  backward-kill-word
+"\e[3^": kill-word
+
+"\eOa": history-search-backward
+"\eOb": history-search-forward
+"\eOA": history-search-backward # tmux
+"\eOB": history-search-forward  # tmux

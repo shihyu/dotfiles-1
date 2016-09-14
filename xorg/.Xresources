@@ -1,0 +1,54 @@
+! -*- compile-command: "xrdb -load ~/.Xresources" -*-
+
+! rofi
+rofi.bw: 5
+rofi.font: Terminus 8
+rofi.color-enabled: true
+
+!                  bg      fg      bgalt   hlbg    hlfg
+rofi.color-normal: #000000,#b2b2b2,#000000,#000000,#ff6000
+rofi.color-urgent: #ffffff,#ffffff,#ffffff,#ffffff,#ffffff
+rofi.color-active: #b2b2b2,#000000,#b2b2b2,#ff6000,#000000
+
+!                  bg      border
+rofi.color-window: #000000,#111111
+
+! urxvt
+Rxvt*scrollBar: false
+Rxvt*font: xft:Terminus:size=14:antialias=false
+Rxvt*geometry: 80x30
+Rxvt*saveLines: 65535
+Rxvt*scrollTtyKeypress: true
+Rxvt*perl-ext-common:
+Rxvt*perl-ext:
+
+! generated: colors.html 0.5 - 0.8
+*color0: #666666
+*color1: #ff4200
+*color2: #00f900
+*color3: #ffad00
+*color4: #0074ff
+*color5: #ff29ff
+*color6: #00dfff
+*color7: #b2b2b2
+*color8: #666666
+*color9: #ff4200
+*color10: #00f900
+*color11: #ffad00
+*color12: #0074ff
+*color13: #ff29ff
+*color14: #00dfff
+*color15: #b2b2b2
+*background: #000000
+*foreground: #b2b2b2
+
+! for the manual
+Rxvt*colorBD: #ffffff
+Rxvt*colorUL: #00ff00
+
+! emacs
+emacs.font: Monospace-12
+emacs.background: #3F3F3F
+emacs.menuBar: off
+emacs.toolBar: off
+emacs.verticalScrollBars: off
